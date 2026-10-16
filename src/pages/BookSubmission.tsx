@@ -81,7 +81,7 @@ export default function BookSubmission() {
           description: description.trim(),
           format,
           file_path: uploadedPath,
-          rights_status: rightsStatus,
+          rights_status: 'pending_review',
           rights_confirmed: rightsConfirmed,
           status: 'pending',
         });
